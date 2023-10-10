@@ -7,7 +7,7 @@ int main()
     float nota;
     float promedio = 0;
 
-    for (int i = 0; i < 10; i++)
+    for (int i = 1; i <= 10; i++)
     {
         printf("Ingrese la nota del estudiante %d: ", i + 1);
         scanf("%f", &nota);
