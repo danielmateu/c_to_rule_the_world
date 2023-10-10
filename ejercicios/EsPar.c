@@ -11,14 +11,15 @@ int main()
     scanf("%d", &num);
 
     // Verificar si el numero es par o impar
-    if (num % 2 == 0)
-    {
-        printf("El numero es par");
-    }
-    else
-    {
-        printf("El numero es impar");
-    }
+    // if (num % 2 == 0)
+    // {
+    //     printf("El numero es par");
+    // }
+    // else
+    // {
+    //     printf("El numero es impar");
+    // }
 
+    num % 2 == 0 ? printf("El numero es par") : printf("El numero es impar");
     return 0;
 }
